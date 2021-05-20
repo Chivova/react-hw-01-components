@@ -1,3 +1,6 @@
+import PropTypes from 'prop-types';
+import defaultImage from './default.png';
+
 export default function Profile({ name, tag, location, avatar, stats }) {
   return (
     <div className="profile">
@@ -25,3 +28,22 @@ export default function Profile({ name, tag, location, avatar, stats }) {
     </div>
   );
 }
+
+Profile.defaultProps = {
+  avatar: { defaultImage },
+  followers: 0,
+  views: 0,
+  likes: 0,
+};
+
+Profile.propTypes = {
+  name: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  avatar: PropTypes.string.isRequired,
+  stats: PropTypes.shape({
+    followers: PropTypes.number,
+    views: PropTypes.number,
+    likes: PropTypes.number,
+  }),
+};
