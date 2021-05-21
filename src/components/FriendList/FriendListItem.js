@@ -1,6 +1,11 @@
 import PropTypes from 'prop-types';
+import defaultAvatar from './defaultAvatar.png';
 
-export default function FriendListItem({ avatar, name, status }) {
+export default function FriendListItem({
+  avatar = defaultAvatar,
+  name,
+  status,
+}) {
   return (
     <li className="item">
       <span className="status">{status}</span>
