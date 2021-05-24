@@ -1,7 +1,12 @@
+//Components
 import Profile from './components/UserProfile/Profile';
 import Statistics from './components/Statistics/Statistics';
 import FriendList from './components/FriendList/FriendList';
 import TransactionsHisory from './components/TransactionsHistory/TransactionsHistory';
+//Styles
+import 'modern-normalize/modern-normalize.css';
+import './index.css';
+//Data
 import user from './data/user.json';
 import statisticalData from './data/statisticalData.json';
 import friends from './data/friends.json';
