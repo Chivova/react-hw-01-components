@@ -1,0 +1,16 @@
+.profile {
+  width: 370px;
+  margin: 0 auto;
+}
+
+.description {
+  border: 2px solid #4d110d;
+  border-bottom: none;
+  padding: 10px;
+  text-align: center;
+}
+
+.avatar {
+  display: block;
+  width: 350px;
+}
