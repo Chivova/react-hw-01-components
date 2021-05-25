@@ -1,0 +1,10 @@
+.s.tableHead {
+  background: #ece9e0;
+}
+.tableData {
+  background-color: #f5d7bf;
+  color: #656665;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 10px;
+}

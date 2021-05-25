@@ -1,0 +1,16 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+}
+
+.item:nth-child(2n) {
+  background-color: honeydew;
+}
+
+.label {
+  margin-bottom: 10px;
+  font-weight: 900;
+}

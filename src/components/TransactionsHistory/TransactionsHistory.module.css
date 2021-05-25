@@ -1,0 +1,15 @@
+.transactionHistory {
+  width: 100%;
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 5px;
+  background: #ece9e0;
+  border: 16px solid #ece9e0;
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+.tableHead {
+  font-size: 18px;
+  padding: 0 10px 10px 10px;
+}

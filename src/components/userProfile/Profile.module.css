@@ -1,16 +1,43 @@
 .profile {
   width: 370px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .description {
-  border: 2px solid #4d110d;
+  border: 3px solid #4d110d;
   border-bottom: none;
   padding: 10px;
   text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .avatar {
   display: block;
   width: 350px;
+}
+
+.name {
+  font-size: 20px;
+}
+.stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid #4d110d;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin: 0;
+  padding: 20px;
+
+  background-color: #ede7e6;
+}
+
+.item {
+  text-align: center;
+}
+
+.label {
+  display: block;
+  font-weight: 800;
 }
