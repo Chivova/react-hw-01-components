@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Chivova/react-hw-01-components/static/css/main.bf67d1b2.chunk.css",
+    "main.js": "/Chivova/react-hw-01-components/static/js/main.efdc431b.chunk.js",
+    "main.js.map": "/Chivova/react-hw-01-components/static/js/main.efdc431b.chunk.js.map",
+    "runtime-main.js": "/Chivova/react-hw-01-components/static/js/runtime-main.39e19369.js",
+    "runtime-main.js.map": "/Chivova/react-hw-01-components/static/js/runtime-main.39e19369.js.map",
+    "static/css/2.bc922b9c.chunk.css": "/Chivova/react-hw-01-components/static/css/2.bc922b9c.chunk.css",
+    "static/js/2.f62dbec0.chunk.js": "/Chivova/react-hw-01-components/static/js/2.f62dbec0.chunk.js",
+    "static/js/2.f62dbec0.chunk.js.map": "/Chivova/react-hw-01-components/static/js/2.f62dbec0.chunk.js.map",
+    "index.html": "/Chivova/react-hw-01-components/index.html",
+    "static/css/2.bc922b9c.chunk.css.map": "/Chivova/react-hw-01-components/static/css/2.bc922b9c.chunk.css.map",
+    "static/css/main.bf67d1b2.chunk.css.map": "/Chivova/react-hw-01-components/static/css/main.bf67d1b2.chunk.css.map",
+    "static/js/2.f62dbec0.chunk.js.LICENSE.txt": "/Chivova/react-hw-01-components/static/js/2.f62dbec0.chunk.js.LICENSE.txt",
+    "static/media/default.6988980f.png": "/Chivova/react-hw-01-components/static/media/default.6988980f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.39e19369.js",
+    "static/css/2.bc922b9c.chunk.css",
+    "static/js/2.f62dbec0.chunk.js",
+    "static/css/main.bf67d1b2.chunk.css",
+    "static/js/main.efdc431b.chunk.js"
+  ]
+}
