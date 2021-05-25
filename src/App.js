@@ -23,7 +23,7 @@ export default function App() {
         stats={user.stats}
       />
       {/* <Statistics statistics={statisticalData} /> */}
-      <Statistics title="Upload stats" stats={statisticalData} />;
+      <Statistics title="Upload stats" stats={statisticalData} />
       <FriendList friends={friends} />
       <TransactionsHisory items={transactions} />
     </>
